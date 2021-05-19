@@ -20,6 +20,14 @@
     </style>
 </head>
 <body>
+      <script>
+  // register ServiceWorker, remember to use absolute path!
+  if (navigator.serviceWorker) {
+    navigator.serviceWorker.register('/{RssTvndrApp}/sw.js', {scope: '/{RssTvndrApp}/'})
+  }
+  
+  // --- Application code here ---
+  </script>
     <iframe src="https://guarded-fortress-88199.herokuapp.com/" style="height: 100%;position: absolute;border: 0;width: 100%;"></iframe>
 <script src="script.js"></script>
 </body>
