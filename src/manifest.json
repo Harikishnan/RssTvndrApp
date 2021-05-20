@@ -1,0 +1,16 @@
+{
+    "name": "Rss Tvndr App",
+    "short_name": "Rss Tvndr",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#fff",
+    "theme_color": "#fff",
+    "orientation": "portrait-primary",
+    "icons": [
+      {
+        "src": "/images/omm.png",
+        "type": "image/png", "sizes": "178x178"
+      }
+    ]
+  }
+
