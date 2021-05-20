@@ -1,7 +1,7 @@
 const staticMoodmap = "dev-MoodMap-site-v1"
 const assets = [
   "/",
-  "/index.html",
+  "./index.html",
   "/404.html",
   "/images/omm.png"
 //   "/stats.html",
